@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Untuk Tri Tercinta</title>
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ffe0f0, #ffe9ec);
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            color: #5c005c;
+            overflow-x: hidden;
+        }
+
+        .container {
+            padding: 60px 20px;
+            animation: fadeIn 1.5s ease;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 2.8em;
+            color: #ff69b4;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 0 auto 40px auto;
+            color: #6a1b9a;
+        }
+
+        .flower-img {
+            width: 250px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        .back-button {
+            margin-top: 40px;
+        }
+
+        .back-button a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffb6c1;
+            color: white;
+            text-decoration: none;
+            border-radius: 15px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button a:hover {
+            background-color: #ff69b4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Untuk Tri tercinta</h1>
+        <p>
+            Kamu itu seperti bunga yang selalu mekar dalam hatiku.<br>
+            Makasih udah jadi orang yang spesial dan penuh warna buat aku.<br>
+            Semoga ini bisa bikin kamu senyum hari ini!
+        </p>
+        <img src="https://i.imgur.com/4AiXzf8.png" alt="Bouquet" class="flower-img">
+        <div class="back-button">
+            <a href="index.html">Kembali ke awal</a>
+        </div>
+    </div>
+</body>
+</html>
